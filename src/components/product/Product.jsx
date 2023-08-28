@@ -12,7 +12,7 @@ function Product({ data, addTocart }) {
 
     return (
 
-        <div className='w-[300px] h-[500px] flex flex-col gap-3 justify-center items-center'>
+        <div className='w-[300px] h-[500px] flex flex-col gap-3 justify-center items-center shadow-xl px-4 py-1'>
             <Link to={`/detailProduct/${id}`} >
                 <div className='relative duration-300'>
                     <div className='absolute inset-0  font-bold flex justify-center items-center opacity-0 hover:opacity-100 bg-slate-200  bg-opacity-50 duration-300'>

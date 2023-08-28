@@ -68,6 +68,18 @@ function ShopContextProvider({ children }) {
         return formattedValue.replace('Rp', '');
     };
 
+    /**
+     * data product => button => dataCart 
+     * button = function addToCart
+     * ==== LOGIC ======
+     * 1. If data user yang sama maka cukup hanya perbarui dengan qty = qty + 1 
+     *    dan totalHarga = hasil * totalHarga
+     * 
+     * ==== DETAIL USER LOGIC ====
+     * 
+     * 
+     */
+
     const [loadingAddCart, setLoadingAddCart] = useState(false)
     // const [incremenButton, setIncrementButton] = useState(false)
 

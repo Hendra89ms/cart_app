@@ -11,7 +11,7 @@ function Shop() {
         <>
             {
                 loadingAddCart ? <Loading /> :
-                    <div className='w-full flex justify-center items-center'>
+                    <div className='w-full flex justify-center items-center mb-10'>
                         <div className='w-[1080px] '>
                             <h1 className='text-4xl font-semibold my-8 text-center'>PetroTech Shop</h1>
 
