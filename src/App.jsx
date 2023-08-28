@@ -13,7 +13,7 @@ function App() {
   const { userLogin } = useContext(ShopContext)
 
   return (
-    <div className='w-screen'>
+    <div className='w-full'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Shop />} />
